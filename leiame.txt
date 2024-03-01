@@ -1,0 +1,1 @@
+"Connection": "Server=localhost,1433;Database=BancoLobby;User Id=sa;Password=Aa@97242468;Trusted_Connection=false;TrustServerCertificate=True;MultipleActiveResultSets=True;"

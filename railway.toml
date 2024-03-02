@@ -3,5 +3,5 @@ builder = "dockerfile"
 dockerfilePath = "./Dockerfile"
 
 [deploy]
-startCommand = "dotnet run"
+startCommand = ""
 restartPolicyType = "never"

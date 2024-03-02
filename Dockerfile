@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
-USER app
+
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
@@ -20,4 +20,6 @@ RUN dotnet publish "backend.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+ENV ASPNETCORE_URLS=http://0.0.0.0:8080
+
 ENTRYPOINT ["dotnet", "backend.dll"]

@@ -10,7 +10,7 @@ WORKDIR /src
 COPY ["backend.csproj", "/"]
 
 COPY . .
-WORKDIR "/src/backend"
+WORKDIR "/src/"
 RUN dotnet build "/backend.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish

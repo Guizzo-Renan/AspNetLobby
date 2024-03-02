@@ -164,3 +164,8 @@
 /home/renan/Desktop/TCC/backend/obj/Debug/net6.0/backend.pdb
 /home/renan/Desktop/TCC/backend/obj/Debug/net6.0/backend.genruntimeconfig.cache
 /home/renan/Desktop/TCC/backend/obj/Debug/net6.0/ref/backend.dll
+/home/renan/Desktop/TCC/backend/bin/Debug/net6.0/http:/www.RenanGAspNet.somee.com/web.config
+/home/renan/Desktop/TCC/backend/bin/Debug/net6.0/http:/www.RenanGAspNet.somee.com/appsettings.Development.json
+/home/renan/Desktop/TCC/backend/bin/Debug/net6.0/http:/www.RenanGAspNet.somee.com/appsettings.json
+/home/renan/Desktop/TCC/backend/bin/Debug/net6.0/http:/www.RenanGAspNet.somee.com/backend.deps.json
+/home/renan/Desktop/TCC/backend/bin/Debug/net6.0/http:/www.RenanGAspNet.somee.com/backend.runtimeconfig.json

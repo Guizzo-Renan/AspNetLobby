@@ -46,7 +46,7 @@ var app = builder.Build();
 
 app.UseAuthorization();
 
-//app.UseCors("AllowReactApp"); // Use o nome da política de CORS que você definiu acima
+app.UseCors("AllowReactApp"); // Use o nome da política de CORS que você definiu acima
 
 app.MapControllers();
 
